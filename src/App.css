@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color: #084e82;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+.AppContainer {
+  background-image: linear-gradient(180deg, #003b67, #084e82);
+  width: 30rem;
+  padding: 4rem;
+  display: grid;
+  grid-gap: 2rem;
+  margin: 2rem;
+}
+
+.buttonsContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1rem;
+}
+
+.buttonsContainer button {
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.cuotaContainer {
+  background-color: #00355d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.4rem 0;
+}
+
+.inputHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.input {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: 9rem;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.3rem 0;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.sliderContainer {
+  padding: 0 2rem;
+}
